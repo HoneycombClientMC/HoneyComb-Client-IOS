@@ -10,7 +10,7 @@ HoneyComb Client is a heavily tweaked, high-performance Minecraft: Java Edition 
   <img src="https://img.shields.io/badge/Platform-iOS%2015%2B-555555?logo=apple&logoColor=white" alt="Platform" />
   <img src="https://img.shields.io/badge/Language-Objective--C%20%2F%20Swift-orange" alt="Language" />
   <img src="https://img.shields.io/badge/License-Zenith%20Launcher-purple" alt="License" />
-  <img src="https://img.shields.io/badge/Built%20by-glunguz%20%26%20Glungug-red" alt="Built by" />
+  <img src="https://img.shields.io/badge/Built%20by-glunguz%20%26%20H.Wiam-red" alt="Built by" />
 </p>
 
 ---
