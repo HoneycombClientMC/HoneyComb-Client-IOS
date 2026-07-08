@@ -3,7 +3,7 @@
 
 > **If the system has a limit, bypass it.**
 
-HoneyComb Client is a heavily tweaked, high-performance Minecraft: Java Edition client designed specifically to push the boundaries of iOS and iPadOS hardware. Standing on the solid foundation of Zenith Launcher and Amethyst, this project is rebuilt from the ground up to eliminate performance bottlenecks, bypass strict sandbox limits, and deliver a seamless, crash-free mobile gaming experience.
+HoneyComb Client is a heavily tweaked, high-performance Minecraft: Java Edition client designed specifically to push the limits of iOS and iPadOS hardware. Standing on the solid foundation of Zenith Launcher and Amethyst, this project is rebuilt from the ground up to eliminate performance bottlenecks, bypass strict sandbox limits, and deliver a seamless, crash-free mobile gaming experience.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Development%20build-passing-brightgreen?logo=github" alt="Build Status" />
@@ -23,23 +23,23 @@ While iOS users are traditionally left out of the launcher loop, HoneyComb Clien
 
 ## 🧐 Why HoneyComb Client?
 
-Let's be entirely real: if you want to run custom Minecraft launchers, we’d still recommend using an Android device. Android is way more exploitable, completely open, and infinitely easier to configure. 
+if you want to run custom Minecraft launchers, we’d still recommend using an Android device. Android is way more exploitable, completely open, and infinitely easier to configure. 
 
-Right now, Apple users are stuck with an incredibly small selection of mobile launchers because, sadly, almost nobody is willing to spend the time building them for iOS. Poor iOS users are left in the dark. As it stands, the entire ecosystem relies on just three pillars: **Amethyst**, **PojavLauncher**, and **Zenith Launcher**. 
+Right now, Apple users are stuck with an incredibly small selection of mobile launchers because, sadly, almost nobody is willing to spend the time building them for iOS. Poor iOS users. As it stands, the entire system relies on just three launchers: **Amethyst**, **PojavLauncher**, and **Zenith Launcher**. 
 
-We got tired of watching from the sidelines. HoneyComb Client is our answer to the locked-down iOS sandbox. If Apple builds a wall, we poke a hole in it.
+We got tired of watching from the sidelines. HoneyComb Client is our answer to the locked-down iOS sandbox. If Apple builds a wall, we destroy it right?
 
 ---
 
 ## 🚀 Key Features
 
-* **Lag-Reduction Architecture** – Fine-tuned environment profiles engineered to maximize frame rates and prevent memory allocation crashes (actively fighting the `getmoreram` limit).
+* **Lag-Reduction Architecture** – Fine-tuned environment profiles engineered to maximize frame rates and prevent memory allocation crashes (actively fighting the `getmoreram` limit happens alot on older iPhones).
 * **HoneyComb Lobby Menu** – A completely transformed, sweet single-player and multiplayer layout that completely replaces the stock title screen with a custom theme.
 * **Full Version Coverage** – Zero restrictions on game versions. Seamlessly boot anything from legacy alpha environments up to modern snapshots, with ongoing integration for Java 25.
-* **Error-Free Offline Play** – Patched authentication systems that clean up local account generation bugs alongside standard Microsoft login support.
+* **Error Minecraft Cannot Be Leggally Installed Offline Play** – Patched authentication systems that clean up local account generation bugs alongside standard Microsoft login support.
 * **Streamlined JIT Launching** – Built to work hand-in-hand with TrollStore and jailbroken environments, replacing standard system alerts with a fast, custom launch override.
-* **Mod Framework Compatibility** – Drop-in optimization engines supporting Fabric, Forge, Sodium, and custom rendering tweaks natively out of the box.
-* **Adaptive Control Sets** – Fully modifiable virtual touch layouts, alongside native mapping for physical controllers, Bluetooth mice, and keyboards.
+* **Mod Framework Compatibility** – Drop-in optimization engines supporting Fabric, Forge, Sodium, and custom rendering tweaks.
+* **Adaptive Control Sets** – Fully modifiable virtual touch layouts, alongside a nice mapping for physical controllers, Bluetooth mouse, and keyboards.
 
 ---
 
@@ -51,15 +51,15 @@ To make HoneyComb Client truly lag-free on an iOS device, we can't just rely on 
 iOS uses a strict process called **Jetsam** to instantly kill any app that uses more RAM than Apple thinks it should. HoneyComb Client alters how the internal JVM arguments are passed on startup, using aggressive garbage collection flags (`-XX:+UseG1GC` and `-XX:MaxGCPauseMillis=20`) to clean up dead memory blocks before iOS can panic and crash the launcher.
 
 ### 🎮 Pre-Loaded Optimization Stack
-Out of the box, HoneyComb Client initializes rendering hooks designed to pair perfectly with modern rendering mods. By rewriting internal pathing, we ensure that optimization engines like **Sodium**, **Lithium**, and **VulkanMod** can communicate directly with the iOS Metal graphics API without translation stutters.
+Out of the box, HoneyComb Client initializes rendering hooks designed to pair perfectly with modern rendering mods. By rewriting internal pathing, we ensure that optimization engines like **Sodium**, **Lithium**, and **VulkanMod** can communicate directly with the iOS Metal graphics API without stutters.
 
 ---
 
 ## 🎨 Customization & The HoneyComb Look
 
-We believe launchers shouldn't just run well—they should look exceptional. HoneyComb Client drops the generic grid interfaces for an aesthetic, streamlined setup:
+We believe launchers shouldn't just run well, they should look exceptional. HoneyComb Client drops the generic grid interfaces for an aesthetic, streamlined setup:
 
-* **The HoneyComb UI:** Custom asset sheets replacing basic buttons with smooth, rounded corners and dark amber themes.
+* **The HoneyComb UI:** Custom asset sheets replacing basic buttons with smooth, rounded corners and dark amber themes and very sweet honey yum yum.
 * **Responsive Layouts:** Virtual joystick and button mappings that automatically scale based on whether you are playing on a compact iPhone screen or a wide iPad Pro.
 * **Built-in Resource Management:** A dedicated directory file structure allowing you to drop custom control JSON profiles directly into the app using mobile file managers.
 
@@ -78,7 +78,7 @@ We are systematically tearing through the source code to fix the most annoying m
 
 ## 📱 Mobile-First Workflow (How We Build PC-Free)
 
-This entire repository is managed and developed using mobile-first tools. You do not need a MacBook or a desktop setup to fork, edit, or remix this client. Our environment stack consists of:
+This entire repository is managed and developed using mobile-first tools. You do not need a MacBook or a desktop setup to fork, edit, or remix this client. Our launcher consists of:
 
 1. **Working Copy** – A powerful iOS Git client used to manage clones, branches, and pushing commits straight back to this repository.
 2. **Koder / Textastic** – Code editors used on-device to tweak structural JSON files, edit property lists (`Info.plist`), and rewrite configuration scripts.
@@ -106,6 +106,6 @@ Because HoneyComb Client requires Just-In-Time (JIT) compilation to execute Java
 ---
 
 ## 📢 STEP IN EVERYONE
-HoneyComb Client is a community-driven remix born out of pure frustration with ecosystem constraints. If you are tired of iOS app limits and zero launcher support, grab the code and help us break things. 
+HoneyComb Client is a community-driven remix with systems constraints. If you are tired of your iPhone limits and zero launcher support, grab the code and help us break things. 
 
 Eternal respect and huge credits go to the **Amethyst** team and **TheNullAstris** for their incredible work on **Zenith Launcher**, which served as the structural core for this project.
