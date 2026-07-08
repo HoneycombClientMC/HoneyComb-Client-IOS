@@ -17,7 +17,7 @@ HoneyComb Client is a heavily tweaked, high-performance Minecraft: Java Edition 
 
 ## ⚡ Overview
 
-While iOS users are traditionally left out of the launcher loop, HoneyComb Client steps in to bridge the gap. Remixed by **glunguz** and **Glungug**, it provides a highly optimized gateway to run Java Edition natively on your mobile device, featuring custom layout mechanics, advanced memory allocation fixes, and clean visual overhauls.
+While iOS users are traditionally left out of the launcher loop, HoneyComb Client steps in to bridge the gap. Remixed by **glunguz** and **H.Wiam**, it provides a highly optimized gateway to run Java Edition natively on your mobile device, featuring custom layout mechanics, advanced memory allocation fixes, and clean visual overhauls.
 
 ---
 
