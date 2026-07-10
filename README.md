@@ -3,7 +3,7 @@
 
 > **If the system has a limit, bypass it.**
 
-HoneyComb Client is a heavily tweaked, high-performance Minecraft: Java Edition client designed specifically to push the limits of iOS and iPadOS hardware. Standing on the solid foundation of Zenith Launcher and Amethyst, this project is rebuilt from the ground up to eliminate performance bottlenecks, bypass strict sandbox limits, and deliver a seamless, crash-free mobile gaming experience.
+HoneyComb Client is a heavily tweaked (i meant it), high-performance Minecraft: Java Edition client designed specifically to push the limits of iOS and iPadOS hardware. Standing on the solid foundation of Zenith Launcher and Amethyst, this project is rebuilt from the ground up to eliminate performance issues, bypass strict sandbox limits, and deliver a crash-free mobile gaming experience.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Development%20build-passing-brightgreen?logo=github" alt="Build Status" />
@@ -17,7 +17,7 @@ HoneyComb Client is a heavily tweaked, high-performance Minecraft: Java Edition 
 
 ## ⚡ Overview
 
-While iOS users are traditionally left out of the launcher loop, HoneyComb Client steps in to bridge the gap. Remixed by **glunguz** and **H.Wiam**, it provides a highly optimized gateway to run Java Edition natively on your mobile device, featuring custom layout mechanics, advanced memory allocation fixes, and clean visual overhauls.
+While iOS users are traditionally left out of the launchers, HoneyComb Client steps in to change the history, Remixed by **glunguz** and **H.Wiam**, it provides a highly optimized experience to run Java Edition natively on your mobile device, featuring custom layout mechanics, advanced memory allocation fixes, and clean visual overhauls.
 
 ---
 
@@ -25,9 +25,9 @@ While iOS users are traditionally left out of the launcher loop, HoneyComb Clien
 
 if you want to run custom Minecraft launchers, we’d still recommend using an Android device. Android is way more exploitable, completely open, and infinitely easier to configure. 
 
-Right now, Apple users are stuck with an incredibly small selection of mobile launchers because, sadly, almost nobody is willing to spend the time building them for iOS. Poor iOS users. As it stands, the entire system relies on just three launchers: **Amethyst**, **PojavLauncher**, and **Zenith Launcher**. 
+Right now, Apple users are stuck with an incredibly small selection of mobile launchers because, sadly, almost nobody is willing to spend the time building them for iOS. Poor iOS users. As it stands, the entire system relies on just three launchers: **Amethyst**, **PojavLauncher**, and **Zenith Launcher** (that's all launchers i know which are available on IOS, you can correct me by dming my discord)
 
-We got tired of watching from the sidelines. HoneyComb Client is our answer to the locked-down iOS sandbox. If Apple builds a wall, we destroy it right?
+We got tired of watching from the sidelines. HoneyComb Client is our answer to the issue. If Apple builds a wall, we destroy it right?
 
 ---
 
@@ -43,7 +43,7 @@ We got tired of watching from the sidelines. HoneyComb Client is our answer to t
 
 ---
 
-## 🧠 Technical Breakdown: Killing the Lag
+## 🧠 Killing the Lag
 
 To make HoneyComb Client truly lag-free on an iOS device, we can't just rely on standard game settings. Mobile hardware handles Java bytecode completely differently than a PC. Here is how we are squeezing out every drop of performance:
 
@@ -72,7 +72,7 @@ We are systematically tearing through the source code to fix the most annoying m
 - [ ] **The `getmoreram` Jetsam Fix:** Testing custom extended memory allocation entitlements to trick iOS into giving the launcher more RAM before triggering a crash loop.
 - [ ] **Java 25 Implementation:** Compiling and paths-testing mobile OpenJDK 25 runtime binaries directly inside the app bundle.
 - [ ] **Local Account Patching:** Stripping out format-exception errors so local/offline profiles log in instantaneously without verifying network handshakes.
-- [ ] **The "Launch Anyway" Override:** Swapping out the intrusive standard JIT warnings for a clean, non-recommended bypass popup that doesn't halt execution.
+- [ ] **The "Launch Anyway" Override:** Swapping out the intrusive standard JIT warnings for a clean, non-recommended bypass popup that doesn't halt execution, we actually strongly recommend to use JIT as it enhances performances of Java.
 
 ---
 
